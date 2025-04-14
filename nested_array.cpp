@@ -23,7 +23,7 @@ int main()
     {
         cout << "Hero ke- " << i+1 << endl;
         cout << "Masukan nama hero = ";
-        getline(cin, arhero[i].Nama);
+       getline(cin, arhero[i].Nama);
 
         cout << "Masukan jenis role = ";
         getline(cin, arhero[i].role);
@@ -32,12 +32,12 @@ int main()
         cin >> arhero[i].tipe;
         cin.ignore();
 
-        cout << "Masukan skill 1 ";
-        getline(cin, arhero[i].skill.skill1);
-        cout << "Masukan skill 2 ";
-        getline(cin, arhero[i].skill.skill2);
-        cout << "Masukan skill 3 ";
-        getline(cin, arhero[i].skill.skill3);
+       cout << "Masukan skill 1 ";
+       getline(cin, arhero[i].skill.skill1);
+       cout << "Masukan skill 2 ";
+       getline(cin, arhero[i].skill.skill2);
+       cout << "Masukan skill 3 ";
+       getline(cin, arhero[i].skill.skill3);
     }
     
     
